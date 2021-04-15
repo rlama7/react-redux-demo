@@ -15,6 +15,7 @@
 
 // functional Component Example
 // we'll destructure props such that we won't have to use props.name, props.profilePhotoUrl
+// {name, profilePhotoUrl} = props
 const Profile = ({ name, profilePhotoUrl }) => {
   return (
     <div>
@@ -171,6 +172,6 @@ const ProfileUsingEffect = ({ name, profilePhotoUrl }) => {
  * As per React Facebook team, functional components are preferred and may be even
  * optimized for performances in the future releases.
  *
- * Functional components are ofter cleaner and more conscise, which leads to more
+ * Functional components are often cleaner and more conscise, which leads to more
  * readble and testable code.
  */
