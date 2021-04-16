@@ -1,3 +1,9 @@
+/**
+ * In the case of controlled component,
+ * input is bound to the state data.
+ *
+ * In other words input is controlled by the state data.
+ */
 import React, { useState } from 'react';
 
 function ControlledComponent() {
