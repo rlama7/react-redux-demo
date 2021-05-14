@@ -6,6 +6,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('');
 
   const handleChange = (e) => setSearchTerm(e.target.value);
+
   return (
     <div className="App">
       <input placeholder="Search..." type="text" onChange={handleChange} />

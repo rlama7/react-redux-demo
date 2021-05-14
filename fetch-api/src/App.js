@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import DataFetch from './components/DataFetch';
+import FetchRandomUser from './components/FetcthRandomUser';
 import './App.css';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <DataFetch />
+      <FetchRandomUser />
       <hr />
 
       <h1>Hello From App</h1>
