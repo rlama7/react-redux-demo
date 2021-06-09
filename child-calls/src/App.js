@@ -10,7 +10,7 @@ function App() {
   // then parent takes this value and uses to update the setName set
   // name gets updated therefore the UI rerenders when the value changes.
 
-  const [name, setName] = useState('');
+  const [name, setName] = useState('Ray');
 
   return (
     <div className="App">
