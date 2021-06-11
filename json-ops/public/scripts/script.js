@@ -14,7 +14,7 @@ const fetchData = async () => {
             <p>${user.email}</p>
             
             <div class="connect">
-              <button>Connect with Me</button>
+              <button id="connectMe" onClick="handleClick()">Connect with Me</button>
             </div>
             
           </div>
@@ -25,13 +25,20 @@ const fetchData = async () => {
 
     // console.log(nameList);
 
-    const [email, first_name, last_name] = record.data;
-    console.log(email, first_name, last_name);
+    // const [email, first_name, last_name] = record.data;
+    // console.log(email, first_name, last_name);
 
-    document.getElementById('app').insertAdjacentHTML('afterbegin', nameList);
+    //document.getElementById('app').insertAdjacentHTML('afterbegin', nameList);
+    document.getElementById('app').innerHTML = `${nameList}`;
   } catch (error) {
     throw error;
   }
+};
+
+const handleClick = () => {
+  document
+    .getElementById('connectMe')
+    .addEventListener('click', () => console.log('Hi'));
 };
 
 const url = 'https://reqres.in/api/users?page=1';
