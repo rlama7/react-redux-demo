@@ -1,0 +1,104 @@
+What could have gone wrong if user is not able to login facebook.com on one of the region
+
+Firewall policy from country
+User base is decrease -> competition
+Get on call with folks: A/B testing 
+Usability Testing 
+We build the app -> before production -> how the end user would respond -> 
+Introduce to larger population -> feedback → interms functional -> can perform the functions/task without being told how to do.
+Here is the task -> figure it out -> then rank it how -> user friendly it is or not ->//
+
+
+There was some recent deployment on the UI side // drop in login happen after the inciden
+-> let’s focus on recent development
+Quickly login to facebook.com and he is saying everything fine.
+When he use mobile UI then he has problem
+
+UI issue particularly in Mobile platform -> how many % in Turkey were using mobile previously
+TDD: Unit Test -logic testing / Automated tests for UI -> automated library /  bu
+[] -> mobile particularly in Turkey -> |OS |  -> ios\android/ 
+
+---------------------------------------------------
+Situation - 
+Cloud 
+
+
+ad
+
+User is login to one instance (123) => show dashboard for that instance
+
+Tenant Information: 123, US => One service
+Server.1
+
+
+I have service => Dashboard => 5 different service => 
+WHere is my instance:, Up and Running or not Unique instance
+Region  (time)
+Widget1 (time) GET 
+2 (time) GET
+3 GET
+4
+12 
+
+
+
+
+One single UI that making this working. 2000 uesr per 5 min
+
+Scalability 
+One UI -> REST -> services /GET/POST/PUT/DELETE
+
+
+
+---------------------------------------------
+
+User Vipul => 123 -> Some data ->
+User Ratna => 123= > some data -> 
+
+
+//
+
+// Database 
+
+#1 UI -> nginX -> Cache Server  -------> Backend ---> i/O → Database 
+
+// FrontEnd
+#2 Ui→ localStorage -> locally -> fetch locally → render it→ 
+
+// Ultimate call to the server -> Database -> Cache Server -> server → localStorage
+
+
+
+// CDN → request → UI → (Batch Processing)
+Async function () {
+
+// promise.race(){}
+//
+
+
+
+Promise.all(){
+Promise1 = await fetch(url1) -x
+Promise2 = await fetch(url2) - y
+Promise3 = await fetch(url3) -t
+Promise4 = await fetch(url4)
+Promise5 = await fetch(url5)
+}. then(([promise1, promise2, promise3….]))
+
+
+}. catch() {
+Throw error;
+
+
+
+I want find out unique value from array
+
+Cosnt arr = [1,2,2,3,4,1,5,5,]
+
+Set = [1,2,3,4,5]
+
+Const unique = (arr) =>[... new Set(arr)] // 1,2,3,4,5
+
+Const unique = (arr) => arr.filter((element) => arr.indexOf(element)=== element)
+
+

@@ -1,0 +1,21 @@
+.item-wrapper {
+  /* background-color: darksalmon; */
+}
+
+.item-wrapper button {
+  margin: 10px;
+  padding: 10px;
+}
+
+.item {
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+  border: 1px solid cyan;
+  border-radius: 5px;
+  background-color: darksalmon;
+}
+
+.item button {
+  margin: 10px;
+}
